@@ -24,4 +24,30 @@ const app=initializeApp({apiKey:'AIzaSyDaEypWEKjyN7OoJCenPQ0Hf1c8_IJVbgQ',authDo
 const auth=getAuth(app);const logout=document.getElementById('logoutButton');
 onAuthStateChanged(auth,user=>logout.classList.toggle('hidden',!user));
 logout.addEventListener('click',async()=>{try{await signOut(auth);window.location.href='index.html';}catch(err){console.error('Sign-out failed',err);alert('Unable to log out. Please try again.');}});
-</script></body></html>
+</script>
+<script>
+/* Start every visit with all resource panels collapsed, including when
+   a browser restores a previously viewed page from its back-forward cache. */
+function collapseResourcePanels() {
+  document.querySelectorAll('.resource-section details').forEach(panel => {
+    panel.open = false;
+  });
+}
+collapseResourcePanels();
+window.addEventListener('pageshow', collapseResourcePanels);
+
+/* Keep the sticky topic navigation directly below the actual header height,
+   including on mobile where the header can wrap onto multiple rows. */
+function updateHeaderOffset() {
+  const header = document.querySelector('header');
+  if (header) {
+    document.documentElement.style.setProperty('--portal-header-height', header.getBoundingClientRect().height + 'px');
+  }
+}
+updateHeaderOffset();
+window.addEventListener('resize', updateHeaderOffset);
+if ('ResizeObserver' in window) {
+  new ResizeObserver(updateHeaderOffset).observe(document.querySelector('header'));
+}
+</script>
+</body></html>

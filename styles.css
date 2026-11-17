@@ -42,3 +42,24 @@ h3{font-size:21px}
 @media(max-width:850px){.header-title{font-size:21px}.header-title small{font-size:12px}}
 @media(max-width:700px){.header-title{font-size:21px}.welcome h1{font-size:clamp(32px,7vw,42px)}}
 @media(max-width:390px){.header-button{font-size:13px;padding:9px 10px}.welcome h1{font-size:32px}}
+
+
+/* November update: ~10% additional typography scaling, sticky navigation. */
+:root{--portal-header-height:115px}
+header{position:sticky;top:0;z-index:1000}
+.resource-nav{position:sticky;top:var(--portal-header-height);z-index:900;background:rgba(243,247,251,.98);padding:13px 8px 15px;margin:0 -8px 24px;border-bottom:1px solid #dce6f0;box-shadow:0 7px 14px rgba(13,51,87,.05);backdrop-filter:blur(10px)}
+.resource-section{scroll-margin-top:calc(var(--portal-header-height) + 155px)}
+body{font-size:22px}
+.header-title{font-size:28.6px}.header-title small{font-size:14.3px}.brand-fallback{font-size:29.7px}
+h1{font-size:clamp(38.5px,4.125vw,51.7px)}h2{font-size:28.6px}h3{font-size:23.1px}
+.welcome p,.page-intro>.muted{font-size:20.9px}
+.feature-card p,.resource-section>p,.resource-section details p,.resource-section details li{font-size:19.25px}
+.resource-section h2{font-size:29.7px}.resource-section summary{font-size:19.25px}
+.resource-nav a{font-size:16.5px}
+.action-link,button,.notice,.error{font-size:19.25px}.header-button{font-size:16.5px}
+.login-card h1{font-size:41.8px}.login-card>p{font-size:19.25px}
+.login-card label{font-size:17.6px}.login-card input{font-size:20.9px}
+.small-note,footer{font-size:16.5px}.feature-icon{font-size:35.2px}
+@media(max-width:850px){.header-title{font-size:23.1px}.header-title small{font-size:13.2px}}
+@media(max-width:700px){.header-title{font-size:23.1px}.welcome h1{font-size:clamp(35.2px,7.7vw,46.2px)}.resource-nav{padding:10px 5px 12px;gap:7px}.resource-nav a{font-size:14.5px;padding:8px 11px}.resource-section{scroll-margin-top:calc(var(--portal-header-height) + 230px)}}
+@media(max-width:390px){.header-button{font-size:14.3px;padding:9px 10px}.welcome h1{font-size:35.2px}}
