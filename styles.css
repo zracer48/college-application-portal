@@ -84,3 +84,11 @@ body > .resource-nav {display:flex!important;align-items:center!important;flex-w
 .resource-topic-select {width:min(100%,610px);min-width:0;padding:11px 42px 11px 16px;border:1px solid #bfd6e7;border-radius:10px;background:#fff;color:#103c5c;font:700 16px 'DM Sans',sans-serif;cursor:pointer;}
 .resource-topic-select:focus-visible {outline:3px solid #4aafe4;outline-offset:2px;}
 @media(max-width:700px){body > .resource-nav{min-height:62px!important;gap:8px!important;padding:9px 14px!important}.resource-nav-label{font-size:13px}.resource-topic-select{font-size:14px;padding:10px 12px;flex:1;}}
+
+/* SAT/ACT personalized primary buttons: keep white lettering on blue backgrounds. */
+.resource-section a.action-link,
+.resource-section a.action-link:link,
+.resource-section a.action-link:visited,
+.resource-section a.action-link:hover,
+.resource-section a.action-link:focus-visible,
+.resource-section a.action-link:active { color: #ffffff !important; }
