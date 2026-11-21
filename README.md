@@ -76,3 +76,7 @@ Note: ACT's current online calendar shows November 9, 2026 as the December ACT r
 
 ## Flat GitHub upload package
 All files in this ZIP are at the repository root (including PDFs). Upload all extracted files directly to the root of the repository. HTML PDF links are configured for root-level PDFs. Future PDF replacements should use the same filenames in the root directory.
+
+
+## Resource navigation (latest update)
+The resources page has a single-row sticky topic dropdown instead of 14 navigation pills. Common App and UC Application each have seven expandable questions; all start closed. All files in this ZIP belong at the repository root.
