@@ -80,3 +80,8 @@ All files in this ZIP are at the repository root (including PDFs). Upload all ex
 
 ## Resource navigation (latest update)
 The resources page has a single-row sticky topic dropdown instead of 14 navigation pills. Common App and UC Application each have seven expandable questions; all start closed. All files in this ZIP belong at the repository root.
+
+
+## Application Resources PDF inventory (November 2026)
+
+Resources 1–11 and 13 are original PDFs supplied by A+ Skills and are copied without editing their contents. Resource 14 is the newly created FAFSA and CSS Profile guide. Resource 12 intentionally has no PDF yet; its existing link points to `12-college-housing.pdf` and will return 404 until that file is supplied. All PDFs are stored in the repository root (no subfolders). To add Resource 12, upload a file named `12-college-housing.pdf` to the root.
