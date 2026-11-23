@@ -50,7 +50,7 @@ The 14 topic links use stable filenames under ``. Only `02-common-application.pd
 - `09-final-reviews.pdf` — Final Application Reviews and Immediately Following Submission (pending)
 - `10-post-submission.pdf` — Post-Submission: Application Portals, Emails, and Application Monitoring (pending)
 - `11-official-test-scores.pdf` — Sending Official Standardized Test Scores: SAT, ACT, and CLT Exams (pending)
-- `12-college-housing.pdf` — College Housing Applications and Priority Registration (pending)
+- `12-college-housing.pdf` — College Housing Applications and Priority Registration (included)
 - `13-scholarships.pdf` — Scholarships (pending)
 - `14-financial-aid.pdf` — Financial Aid: FAFSA and CSS Profile (pending)
 
@@ -84,4 +84,4 @@ The resources page has a single-row sticky topic dropdown instead of 14 navigati
 
 ## Application Resources PDF inventory (November 2026)
 
-Resources 1–11 and 13 are original PDFs supplied by A+ Skills and are copied without editing their contents. Resource 14 is the newly created FAFSA and CSS Profile guide. Resource 12 intentionally has no PDF yet; its existing link points to `12-college-housing.pdf` and will return 404 until that file is supplied. All PDFs are stored in the repository root (no subfolders). To add Resource 12, upload a file named `12-college-housing.pdf` to the root.
+Resources 1–13 are original PDFs supplied by A+ Skills and copied without editing their contents. Resource 14 is the FAFSA and CSS Profile guide. All 14 resource PDFs are included in the repository root (no subfolders), and Resource 12 links to `12-college-housing.pdf`.
